@@ -1,0 +1,60 @@
+{
+    "anims": [
+        {
+            "key": "dude_walk",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 10,
+            "frames": [
+                {
+                    "key": "dude",
+                    "frame": "dude_monster_walk_1"
+                },
+                {
+                    "key": "dude",
+                    "frame": "dude_monster_walk_2"
+                },
+                {
+                    "key": "dude",
+                    "frame": "dude_monster_walk_3"
+                },
+                {
+                    "key": "dude",
+                    "frame": "dude_monster_walk_4"
+                },
+                {
+                    "key": "dude",
+                    "frame": "dude_monster_walk_5"
+                },
+                {
+                    "key": "dude",
+                    "frame": "dude_monster_walk_6"
+                }
+            ]
+        },
+        {
+            "key": "dude_idle",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 10,
+            "frames": [
+                {
+                    "key": "dude",
+                    "frame": "dude_idle0"
+                },
+                {
+                    "key": "dude",
+                    "frame": "dude_idle1"
+                },
+                {
+                    "key": "dude",
+                    "frame": "dude_idle2"
+                },
+                {
+                    "key": "dude",
+                    "frame": "dude_idle3"
+                }
+            ]
+        }
+    ]
+}
