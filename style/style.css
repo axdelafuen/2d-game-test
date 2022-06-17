@@ -1,6 +1,12 @@
 @import url("../fonts/Free_Monospaced/stylesheet.css");
 @import url("../fonts/Free_Monospaced_Bold/stylesheet.css");
 
+body{
+  background-image: url(../ressource/img/menu-bg.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
 #menu{
   display: flex;
   flex-direction: column;
@@ -11,10 +17,6 @@
   bottom: 0;
   right: 0;
   left: 0;
-  background-image: url(../ressource/img/menu-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
   font-family: free-monospaced-bold;
 }
 

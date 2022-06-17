@@ -6,10 +6,16 @@ export default class MainScene extends Phaser.Scene{
   }
   preload(){
     Player.preload(this);
+    this.load.image('tiles', '../ressource/assets/decor/Solaria/32x32/Tilesets/Solaria.png');
+    this.load.tilemapTiledJSON('map','../ressource/assets/decor/Solaria/32x32/Tilesets/map.json');
   }
   create(){
-    this.player = new Player({scene:this,x:0,y:0,texture:'dude',frame:'dude_idle0'});
-    //let testPlayer = new Player({scene:this,x:100,y:100,texture:'dude',frame:'dude_idle0'});
+    //const map = this.make.tilemap({key: 'map'});
+    //const tileset = map.addTilesetImage('Solaria','tiles',32,32,0,0);
+    //const layer1 = map.createStaticLayer('Calque de Tuiles 1',tileset,0,0);
+    this.player = new Player({scene:this,x:20,y:20,texture:'dude',frame:'dude_idle0'});
+    let testPlayer = new Player({scene:this,x:100,y:100,texture:'dude',frame:'dude_idle0'});
+    testPlayer.anims.play('dude_idle',true);
     this.player.inputKeys = this.input.keyboard.addKeys({
       up:Phaser.Input.Keyboard.KeyCodes.Z,
       down:Phaser.Input.Keyboard.KeyCodes.S,

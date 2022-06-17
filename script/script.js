@@ -35,8 +35,6 @@ document.getElementById('init').addEventListener("click", startGame);
 function startGame(){
   document.getElementById('menu').style.visibility='hidden';
   document.getElementById('gameScene').style.visibility='visible';
-  new Phaser.Game(config);
+  var game = new Phaser.Game(config);
 }
-
-
-//
+//startGame();
