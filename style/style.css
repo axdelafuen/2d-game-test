@@ -1,0 +1,41 @@
+@import url("../fonts/Free_Monospaced/stylesheet.css");
+@import url("../fonts/Free_Monospaced_Bold/stylesheet.css");
+
+#menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: url(../ressource/img/menu-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  font-family: free-monospaced-bold;
+}
+
+#menu h1{
+  font-size: 540%
+}
+
+#menu button{
+  font-size: 340%;
+  font-family: free-monospaced-bold;
+  padding: 1% 3%;
+}
+
+.gameScene{
+  visibility: hidden;
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right:0;
+  left:0;
+  justify-content: center;
+  align-items: center;
+}
