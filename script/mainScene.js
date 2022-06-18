@@ -6,8 +6,8 @@ export default class MainScene extends Phaser.Scene{
   }
   preload(){
     Player.preload(this);
-    this.load.image('tiles', '../ressource/assets/decor/Solaria/32x32/Tilesets/Solaria.png');
-    this.load.tilemapTiledJSON('map','../ressource/assets/decor/Solaria/32x32/Tilesets/Solaria.json');
+    this.load.image('tiles', '../ressource/assets/Tilesets/Solaria.png');
+    this.load.tilemapTiledJSON('map','../ressource/assets/Tilesets/Solaria.json');
   }
   create(){
     const map = this.make.tilemap({key:'map'});

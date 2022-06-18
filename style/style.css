@@ -42,3 +42,13 @@ body{
   justify-content: center;
   align-items: center;
 }
+.dude{
+  position: absolute;
+  height: 8%;
+  top: 18%;
+}
+.imgBG{
+  position: absolute;
+  height: 20%;
+  top: 15%;
+}
