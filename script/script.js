@@ -22,10 +22,10 @@ const config = {
 }
 
 document.getElementById('init').addEventListener("click", startGame);
+new Phaser.Game(config);
 
 function startGame(){
   document.getElementById('menu').style.visibility='hidden';
   document.getElementById('gameScene').style.visibility='visible';
-  var game = new Phaser.Game(config);
 }
 //startGame();
