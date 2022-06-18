@@ -28,4 +28,4 @@ function startGame(){
   document.getElementById('gameScene').style.visibility='visible';
   var game = new Phaser.Game(config);
 }
-startGame();
+//startGame();
