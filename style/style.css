@@ -3,8 +3,9 @@
 
 body{
   background-image: url(../ressource/img/menu-bg.jpg);
-  background-size: cover;
+  background-attachment: fixed;
   background-position: bottom;
+  background-size: cover;
 }
 
 #menu{

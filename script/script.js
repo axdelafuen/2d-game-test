@@ -1,32 +1,23 @@
 import MainScene from "./mainScene.js";
 
 const config = {
-  width: 600,
-  height: 300,
+  width: 950,
+  height: 640,
   backgroundColor: '#333333',
   type: Phaser.AUTO,
   parent: 'gameScene',
   scene:[MainScene],
   scale:{
-    zoom:2,
+    zoom:1.5,
   },
   physics: {
     default: 'matter',
     matter: {
-      debug:true,
+      debug:false,
       gravity:{
         y:0,
       },
     },
-  },
-  plugins:{
-    scene:[
-      {
-        plugin : PhaserMatterCollisionPlugin,
-        key : 'matterCollision',
-        mapping : 'matterCollision'
-      },
-    ],
   },
 }
 
